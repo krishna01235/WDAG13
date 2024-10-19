@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style>
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: url(Untitled-design-2_11zon.jpg);
+   
+}
+
+.main {
+    
+    width: 350px;
+    height: 480px;
+    /* background-color: rgb(206, 219, 219); */
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 30px 50px black;
+}
+
+#chk {
+    display: none;
+    color: black;
+}
+
+.signup {
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    color: rgb(9, 6, 6);
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(20, 216, 46);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    background: white;
+    justify-content: center;
+    display: flex;
+    margin: 18px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: rgb(230, 224, 224);
+    background: rgb(45, 48, 54);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease-in;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 20px 40px black;
+}
+
+button:hover {
+    background: rgb(20, 57, 105);
+}
+.info{
+    border: 1px solid black;
+}
+#log{
+     width: 180px;
+    background-color: rgb(231, 202, 163);
+    border: 2px solid black;
+     color: blue;
+     margin-left: 80px;
+     border-radius: 20px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup and Login Form</title>
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id="chk" >
+
+        <div class="signup">
+            <form action="/">
+
+                <label for="chk">Join us now</label>
+                <div id="log"> 
+                    <h1>LOG-IN</h1>
+                
+                </div>
+                <input type="number" class="info" placeholder="Enter your Ph.No" required>
+                <input type="number" class="info" placeholder="Enter OTP" required>
+                
+                  
+                <button>Submit</button>
+               
+            </form>
+        </div>
+
+       
+</body>
+</html>
